@@ -6,7 +6,7 @@ const useNotification = () => {
   return (message, variant) =>
     enqueueSnackbar(message, {
       variant,
-      anchorOrigin: { vertical: "bottom", horizontal: "left" },
+      anchorOrigin: { vertical: "bottom", horizontal: "right" },
     });
 };
 
